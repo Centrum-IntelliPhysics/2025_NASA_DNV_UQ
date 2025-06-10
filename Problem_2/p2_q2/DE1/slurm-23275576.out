@@ -1,0 +1,301 @@
+NASA/DNV UQ Challenge - Reliability-Based Design Optimization
+================================================================================
+Maximum runtime: 72 hours
+Started at: 2025-04-05 13:38:32
+Using all available aleatory samples and 20 epistemic samples
+
+Using hyperparameters:
+  strategy: best1bin
+  mutation: (0.5, 1.0)
+  recombination: 0.7
+  popsize: 15
+  tol: 0.001
+  init: latinhypercube
+  maxiter: 15
+TimeoutManager initialized. Max runtime: 72 hours
+Started at: 2025-04-05 13:38:33
+Loaded 2000 aleatory samples from .npy files
+Using all available aleatory samples
+Generated Xe1 samples using range [0.3220, 0.3230]
+Generated Xe2 samples using range [0.5880, 0.5920]
+Generated Xe3 samples using range [0.5258, 0.5659]
+Using 20 epistemic samples
+No checkpoint found. Starting fresh optimization.
+ReliabilityBasedOptimizer initialized with all aleatory samples and 20 epistemic samples
+
+Starting reliability-based design optimization...
+Solving Reliability-Based Design Optimization Problem...
+Max iterations: 20
+Time limit: 72.0 hours
+Using default initial position: [0.533 0.666 0.5  ]
+Using optimization parameters: {'strategy': 'best1bin', 'mutation': (0.5, 1.0), 'recombination': 0.7, 'popsize': 15, 'tol': 0.001, 'init': 'latinhypercube', 'maxiter': 15}
+Evaluating X_c = [0.5330, 0.6660, 0.5000]
+
+=== CHECKPOINT TRIGGERED at 2025-04-05 15:53:26 ===
+=== Elapsed time: 02:14:53, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250405_155326.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 1
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-05 18:08:26 ===
+=== Elapsed time: 04:29:53, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250405_180826.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 2
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-05 20:23:16 ===
+=== Elapsed time: 06:44:43, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250405_202316.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 3
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-05 22:38:18 ===
+=== Elapsed time: 08:59:45, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250405_223818.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 4
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 00:53:04 ===
+=== Elapsed time: 11:14:31, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_005304.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 5
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 03:07:54 ===
+=== Elapsed time: 13:29:21, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_030754.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 6
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 05:22:50 ===
+=== Elapsed time: 15:44:17, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_052250.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 7
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 07:37:42 ===
+=== Elapsed time: 17:59:09, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_073742.pkl
+Iteration: 0
+Best worst-case PoF: 0.010500
+Function evaluations: 8
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 09:52:37 ===
+=== Elapsed time: 20:14:04, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_095237.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 9
+======================
+
+Function eval #10: Using all 2000 aleatory and 20 epistemic samples
+X_c: [0.17373558 0.87484717 0.65451816], HIGH-FIDELITY evaluation - worst-case pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 12:07:24 ===
+=== Elapsed time: 22:28:51, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_120724.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 10
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 14:22:20 ===
+=== Elapsed time: 24:43:47, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_142220.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 11
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 16:37:11 ===
+=== Elapsed time: 26:58:38, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_163711.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 12
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 18:52:08 ===
+=== Elapsed time: 29:13:35, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_185208.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 13
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 21:07:01 ===
+=== Elapsed time: 31:28:28, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_210701.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 14
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-06 23:22:04 ===
+=== Elapsed time: 33:43:31, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250406_232204.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 15
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 01:36:58 ===
+=== Elapsed time: 35:58:25, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_013658.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 16
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 03:51:41 ===
+=== Elapsed time: 38:13:08, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_035141.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 17
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 06:06:37 ===
+=== Elapsed time: 40:28:04, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_060637.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 18
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 08:21:26 ===
+=== Elapsed time: 42:42:53, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_082126.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 19
+======================
+
+Function eval #20: Using all 2000 aleatory and 20 epistemic samples
+Evaluating X_c = [0.8362, 0.9339, 0.8603]
+X_c: [0.83619538 0.93387749 0.86028139], HIGH-FIDELITY evaluation - worst-case pof: 0.062500
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 10:36:18 ===
+=== Elapsed time: 44:57:45, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_103618.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 20
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 12:51:20 ===
+=== Elapsed time: 47:12:47, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_125120.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 21
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-07 15:06:29 ===
+=== Elapsed time: 49:27:56, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: reliability_results/checkpoints/checkpoint_20250407_150629.pkl
+Iteration: 0
+Best worst-case PoF: 0.005500
+Function evaluations: 22
+======================
+
