@@ -1,0 +1,15 @@
+{
+  "X_c_optimal": [
+    0.13218865485292064,
+    0.33606753207678236,
+    0.6124628650990374
+  ],
+  "best_objective": 7.722148248316534,
+  "constraint_value": 0.0,
+  "feasible": true,
+  "iteration": 0,
+  "func_evaluations": 1030,
+  "elapsed_time": "71:50:11",
+  "completed": false,
+  "timestamp": "2025-04-02 16:35:17"
+}

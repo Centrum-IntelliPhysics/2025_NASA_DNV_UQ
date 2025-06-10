@@ -1,0 +1,2322 @@
+NASA/DNV UQ Challenge - ε-Constrained Design Optimization
+================================================================================
+Maximum runtime: 72 hours
+Started at: 2025-03-30 16:41:57
+Using all available aleatory samples and 10 epistemic samples
+Constraint threshold ε: 0.001
+
+Using hyperparameters:
+  strategy: rand1bin
+  mutation: 0.8
+  recombination: 0.7
+  popsize: 15
+  tol: 0.001
+  polish: True
+  maxiter: 25
+TimeoutManager initialized. Max runtime: 72 hours
+Started at: 2025-03-30 16:41:57
+Loaded 100 aleatory samples from .npy files
+Using all available aleatory samples
+Generated Xe1 samples using range [0.3220, 0.3230]
+Generated Xe2 samples using range [0.5880, 0.5920]
+Generated Xe3 samples using range [0.5258, 0.5659]
+Using 10 epistemic samples
+No checkpoint found. Starting fresh optimization.
+EpsilonConstrainedOptimizer initialized with all aleatory samples and 10 epistemic samples
+
+Starting ε-constrained design optimization...
+Solving ε-Constrained Design Optimization Problem...
+Failure probability threshold ε: 0.001
+Max iterations: 20
+Time limit: 72.0 hours
+Using default initial position: [0.533 0.666 0.5  ]
+Using optimization parameters: {'strategy': 'rand1bin', 'mutation': 0.8, 'recombination': 0.7, 'popsize': 15, 'tol': 0.001, 'polish': True, 'maxiter': 25}
+Evaluating X_c = [0.5330, 0.6660, 0.5000]
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 17:15:17 ===
+=== Elapsed time: 00:33:19, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_171517.pkl
+Iteration: 0
+Best objective: 7.573250
+Constraint value: 0.000000
+Function evaluations: 8
+======================
+
+Function eval #10: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.56540608 0.59349828 0.63859653], HIGH-FIDELITY evaluation - obj: 7.5535, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 17:48:51 ===
+=== Elapsed time: 01:06:53, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_174851.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 16
+======================
+
+Function eval #20: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8144, 0.0955, 0.5648]
+X_c: [0.81441529 0.09551448 0.5648283 ], HIGH-FIDELITY evaluation - obj: 7.2012, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 18:22:17 ===
+=== Elapsed time: 01:40:19, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_182217.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 24
+======================
+
+Function eval #30: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.68641621 0.27073941 0.38018313], HIGH-FIDELITY evaluation - obj: 7.5041, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 18:55:40 ===
+=== Elapsed time: 02:13:42, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_185540.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 32
+======================
+
+Function eval #40: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.3835, 0.3158, 0.6858]
+X_c: [0.38354339 0.31580566 0.68582533], HIGH-FIDELITY evaluation - obj: 7.4656, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 19:29:05 ===
+=== Elapsed time: 02:47:07, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_192905.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 40
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 20:02:26 ===
+=== Elapsed time: 03:20:28, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_200226.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 48
+======================
+
+Function eval #50: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.83003737 0.74294418 0.24447972], HIGH-FIDELITY evaluation - obj: 7.4540, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 20:35:45 ===
+=== Elapsed time: 03:53:47, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_203545.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 56
+======================
+
+Function eval #60: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.5185, 0.5639, 0.4575]
+X_c: [0.51854259 0.56389159 0.45748066], HIGH-FIDELITY evaluation - obj: 7.4390, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 21:09:02 ===
+=== Elapsed time: 04:27:04, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_210902.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 64
+======================
+
+Function eval #70: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.50306467 0.99531577 0.79051235], HIGH-FIDELITY evaluation - obj: 7.3911, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 21:42:23 ===
+=== Elapsed time: 05:00:25, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_214223.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 72
+======================
+
+Function eval #80: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2397, 0.4632, 0.1927]
+X_c: [0.23972723 0.46321075 0.19271352], HIGH-FIDELITY evaluation - obj: 7.0247, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 22:15:50 ===
+=== Elapsed time: 05:33:52, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_221550.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 80
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 22:49:11 ===
+=== Elapsed time: 06:07:13, Interval: 30.0 minutes ===
+
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_224911.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 88
+======================
+
+Function eval #90: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.533      0.23893222 0.84323413], HIGH-FIDELITY evaluation - obj: 7.5022, pof: 0.010000
+differential_evolution step 1: f(x)= -39006.6
+Comparing solutions: Current [INFEASIBLE] (obj=6.5756, pof=4.000000e-02) vs Best [FEASIBLE] (obj=7.7146, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 1: Obj = 6.5756, PoF = 4.000000e-02 [INFEASIBLE] (Elapsed: 06:15:37, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 23:22:42 ===
+=== Elapsed time: 06:40:44, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250330_232242.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_232242.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 96
+======================
+
+Function eval #100: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7930, 0.6494, 0.4135]
+X_c: [0.79298051 0.64943    0.41351311], HIGH-FIDELITY evaluation - obj: 7.6319, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-30 23:56:10 ===
+=== Elapsed time: 07:14:12, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250330_235610.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250330_235610.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 104
+======================
+
+Function eval #110: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.74126023 0.08967572 0.14693626], HIGH-FIDELITY evaluation - obj: 6.5973, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 00:29:30 ===
+=== Elapsed time: 07:47:32, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_002930.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_002930.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 112
+======================
+
+Function eval #120: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.4720, 0.0524, 0.4129]
+X_c: [0.47200193 0.05239389 0.41286675], HIGH-FIDELITY evaluation - obj: 6.5793, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 01:02:53 ===
+=== Elapsed time: 08:20:55, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_010253.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_010253.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 120
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 01:36:15 ===
+=== Elapsed time: 08:54:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_013615.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_013615.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 128
+======================
+
+Function eval #130: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.4668228  0.25928611 0.66089821], HIGH-FIDELITY evaluation - obj: 7.4019, pof: 0.000000
+differential_evolution step 2: f(x)= -39007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.1357, pof=4.000000e-02) vs Best [FEASIBLE] (obj=7.7146, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 2: Obj = 7.1357, PoF = 4.000000e-02 [INFEASIBLE] (Elapsed: 09:23:33, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 02:09:44 ===
+=== Elapsed time: 09:27:46, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_020944.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_020944.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 136
+======================
+
+Function eval #140: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2949, 0.7429, 0.1283]
+X_c: [0.29491978 0.74294418 0.12834093], HIGH-FIDELITY evaluation - obj: 6.6105, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 02:43:11 ===
+=== Elapsed time: 10:01:13, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_024311.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_024311.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 144
+======================
+
+Function eval #150: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.95546666 0.45073651 0.44145545], HIGH-FIDELITY evaluation - obj: 7.3032, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 03:16:30 ===
+=== Elapsed time: 10:34:32, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_031630.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_031630.pkl
+Iteration: 0
+Best objective: 7.714643
+Constraint value: 0.000000
+Function evaluations: 152
+======================
+
+Function eval #160: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8460, 0.1579, 0.6044]
+X_c: [0.84595794 0.15791481 0.60441131], HIGH-FIDELITY evaluation - obj: 7.3383, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 03:49:52 ===
+=== Elapsed time: 11:07:54, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_034952.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_034952.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 160
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 04:23:21 ===
+=== Elapsed time: 11:41:23, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_042321.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_042321.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 168
+======================
+
+Function eval #170: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.20088033 0.22411772 0.72652929], HIGH-FIDELITY evaluation - obj: 7.5645, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 04:56:45 ===
+=== Elapsed time: 12:14:47, Interval: 30.0 minutes ===
+
+P2_q3_DE1.py:421: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_045645.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_045645.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 176
+======================
+
+Function eval #180: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.6789, 0.3359, 0.1237]
+X_c: [0.67886961 0.33586464 0.12374001], HIGH-FIDELITY evaluation - obj: 6.9559, pof: 0.010000
+differential_evolution step 3: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 3: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 12:31:28, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 05:30:04 ===
+=== Elapsed time: 12:48:06, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_053004.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_053004.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 184
+======================
+
+Function eval #190: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.69266475 0.64943    0.99259771], HIGH-FIDELITY evaluation - obj: 7.3193, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 06:03:30 ===
+=== Elapsed time: 13:21:32, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_060330.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_060330.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 192
+======================
+
+Function eval #200: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.4598, 0.3013, 0.2933]
+X_c: [0.45976434 0.30133603 0.29325528], HIGH-FIDELITY evaluation - obj: 6.9534, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 06:36:50 ===
+=== Elapsed time: 13:54:52, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_063650.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_063650.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 200
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 07:10:09 ===
+=== Elapsed time: 14:28:11, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_071009.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_071009.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 208
+======================
+
+Function eval #210: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.92411097 0.08336813 0.71175581], HIGH-FIDELITY evaluation - obj: 6.9660, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 07:43:25 ===
+=== Elapsed time: 15:01:27, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_074325.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_074325.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 216
+======================
+
+Function eval #220: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0039, 0.2050, 0.9540]
+X_c: [0.00387877 0.20498773 0.95396933], HIGH-FIDELITY evaluation - obj: 7.4940, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 08:16:35 ===
+=== Elapsed time: 15:34:37, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_081635.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_081635.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 224
+======================
+
+differential_evolution step 4: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 4: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 15:38:47, Source: high-fidelity cache)
+Function eval #230: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.96050272 0.56315524 0.70609531], HIGH-FIDELITY evaluation - obj: 7.1784, pof: 0.030000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 08:49:47 ===
+=== Elapsed time: 16:07:49, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_084947.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_084947.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 232
+======================
+
+Function eval #240: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0431, 0.0720, 0.8265]
+X_c: [0.04310709 0.07202589 0.82646401], HIGH-FIDELITY evaluation - obj: 7.2295, pof: 0.030000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 09:22:54 ===
+=== Elapsed time: 16:40:56, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_092254.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_092254.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 240
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 09:56:06 ===
+=== Elapsed time: 17:14:08, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_095606.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_095606.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 248
+======================
+
+Function eval #250: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.27635958 0.98309267 0.85186852], HIGH-FIDELITY evaluation - obj: 7.4507, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 10:29:18 ===
+=== Elapsed time: 17:47:20, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_102918.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_102918.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 256
+======================
+
+Function eval #260: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0438, 0.2241, 0.7265]
+X_c: [0.04380791 0.22411772 0.72652929], HIGH-FIDELITY evaluation - obj: 7.5854, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 11:02:28 ===
+=== Elapsed time: 18:20:30, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_110228.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_110228.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 264
+======================
+
+Function eval #270: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.7268289  0.55645109 0.78504383], HIGH-FIDELITY evaluation - obj: 7.5397, pof: 0.010000
+differential_evolution step 5: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 5: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 18:45:25, Source: high-fidelity cache)
+Creating scheduled checkpoint at iteration 5
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_112723.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_112723.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 270
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 11:35:42 ===
+=== Elapsed time: 18:53:44, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_113542.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_113542.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 272
+======================
+
+Function eval #280: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0204, 0.6494, 0.4135]
+X_c: [0.02041735 0.64943    0.41351311], HIGH-FIDELITY evaluation - obj: 7.6411, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 12:08:49 ===
+=== Elapsed time: 19:26:51, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_120849.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_120849.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 280
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 12:41:59 ===
+=== Elapsed time: 20:00:01, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_124159.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_124159.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 288
+======================
+
+Function eval #290: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.97004461 0.81496597 0.51860657], HIGH-FIDELITY evaluation - obj: 7.2731, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 13:15:19 ===
+=== Elapsed time: 20:33:21, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_131519.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_131519.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 296
+======================
+
+Function eval #300: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8018, 0.0362, 0.6315]
+X_c: [0.80179234 0.03623636 0.63150169], HIGH-FIDELITY evaluation - obj: 7.0415, pof: 0.040000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 13:48:39 ===
+=== Elapsed time: 21:06:41, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_134839.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_134839.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 304
+======================
+
+Function eval #310: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.25983792 0.20498773 0.93234751], HIGH-FIDELITY evaluation - obj: 7.4595, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 14:21:51 ===
+=== Elapsed time: 21:39:53, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_142151.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_142151.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 312
+======================
+
+differential_evolution step 6: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 6: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 21:52:20, Source: high-fidelity cache)
+Function eval #320: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2985, 0.5632, 0.5973]
+X_c: [0.29846344 0.56315524 0.59734984], HIGH-FIDELITY evaluation - obj: 7.4703, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 14:55:03 ===
+=== Elapsed time: 22:13:05, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_145503.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_145503.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 320
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 15:26:15 ===
+=== Elapsed time: 22:44:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_152615.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_152615.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 327
+======================
+
+Function eval #330: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.04310709 0.13840929 0.39651569], HIGH-FIDELITY evaluation - obj: 7.2821, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 15:59:49 ===
+=== Elapsed time: 23:17:51, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_155949.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_155949.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 335
+======================
+
+Function eval #340: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.6986, 0.9230, 0.6044]
+X_c: [0.69859042 0.92300537 0.60441131], HIGH-FIDELITY evaluation - obj: 7.6693, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 16:33:17 ===
+=== Elapsed time: 23:51:20, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_163317.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_163317.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 343
+======================
+
+Function eval #350: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.78843777 0.4978124  0.62697054], HIGH-FIDELITY evaluation - obj: 7.6099, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 17:06:50 ===
+=== Elapsed time: 24:24:52, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_170650.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_170650.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 351
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 17:40:45 ===
+=== Elapsed time: 24:58:47, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_174045.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_174045.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 359
+======================
+
+Function eval #360: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9486, 0.6355, 0.3405]
+X_c: [0.94855353 0.63545461 0.3405165 ], HIGH-FIDELITY evaluation - obj: 7.2616, pof: 0.010000
+differential_evolution step 7: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 7: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 25:03:02, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 18:14:19 ===
+=== Elapsed time: 25:32:22, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_181420.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_181420.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 367
+======================
+
+Function eval #370: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.26769811 0.1456242  0.43930883], HIGH-FIDELITY evaluation - obj: 7.0370, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 18:48:10 ===
+=== Elapsed time: 26:06:12, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_184810.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_184810.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 375
+======================
+
+Function eval #380: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7840, 0.8150, 0.4970]
+X_c: [0.78396289 0.81496597 0.49699245], HIGH-FIDELITY evaluation - obj: 7.6780, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 19:22:05 ===
+=== Elapsed time: 26:40:07, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_192205.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_192205.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 383
+======================
+
+Function eval #390: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.12134855 0.24421596 0.14792766], HIGH-FIDELITY evaluation - obj: 6.9339, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 19:55:45 ===
+=== Elapsed time: 27:13:47, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_195545.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_195545.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 391
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 20:29:29 ===
+=== Elapsed time: 27:47:31, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_202929.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_202929.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 399
+======================
+
+Function eval #400: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2613, 0.7395, 0.6417]
+X_c: [0.26131762 0.73945206 0.64173959], HIGH-FIDELITY evaluation - obj: 7.5704, pof: 0.000000
+differential_evolution step 8: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7259, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 8: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 28:12:47, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 21:03:12 ===
+=== Elapsed time: 28:21:14, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_210312.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_210312.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 407
+======================
+
+Function eval #410: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.37980755 0.68465857 0.66987462], HIGH-FIDELITY evaluation - obj: 7.4229, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 21:36:51 ===
+=== Elapsed time: 28:54:53, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_213651.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_213651.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 415
+======================
+
+Function eval #420: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0928, 0.5272, 0.3848]
+X_c: [0.0928492  0.52715716 0.38477866], HIGH-FIDELITY evaluation - obj: 7.6559, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 22:10:24 ===
+=== Elapsed time: 29:28:26, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_221024.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_221024.pkl
+Iteration: 0
+Best objective: 7.725937
+Constraint value: 0.000000
+Function evaluations: 423
+======================
+
+Function eval #430: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.69018587 0.85540745 0.60441131], HIGH-FIDELITY evaluation - obj: 7.7293, pof: 0.000000
+New best solution from func eval! Obj: 7.7293, PoF: 0.000000 [FEASIBLE]
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 22:44:02 ===
+=== Elapsed time: 30:02:04, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_224402.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_224402.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 431
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 23:17:41 ===
+=== Elapsed time: 30:35:43, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_231741.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_231741.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 439
+======================
+
+Function eval #440: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7531, 0.7079, 0.1250]
+X_c: [0.75306587 0.70789113 0.12497588], HIGH-FIDELITY evaluation - obj: 7.1940, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-03-31 23:51:13 ===
+=== Elapsed time: 31:09:15, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250331_235113.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250331_235113.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 447
+======================
+
+Function eval #450: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.67902792 0.52115789 0.5614392 ], HIGH-FIDELITY evaluation - obj: 7.6849, pof: 0.000000
+differential_evolution step 9: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 9: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 31:21:49, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 00:24:40 ===
+=== Elapsed time: 31:42:42, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_002440.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_002440.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 455
+======================
+
+Function eval #460: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7725, 0.1283, 0.7478]
+X_c: [0.77249179 0.12832687 0.74777332], HIGH-FIDELITY evaluation - obj: 7.3719, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 00:58:18 ===
+=== Elapsed time: 32:16:20, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_005818.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_005818.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 463
+======================
+
+Function eval #470: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.78313015 0.81496597 0.51860657], HIGH-FIDELITY evaluation - obj: 7.6779, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 01:32:02 ===
+=== Elapsed time: 32:50:04, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_013202.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_013202.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 471
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 02:05:59 ===
+=== Elapsed time: 33:24:01, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_020559.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_020559.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 479
+======================
+
+Function eval #480: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9848, 0.0362, 0.4402]
+X_c: [0.98476322 0.03623636 0.44022254], HIGH-FIDELITY evaluation - obj: 6.4808, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 02:39:40 ===
+=== Elapsed time: 33:57:42, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_023940.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_023940.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 487
+======================
+
+Function eval #490: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.42500261 0.39212746 0.40961625], HIGH-FIDELITY evaluation - obj: 7.2529, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 03:13:10 ===
+=== Elapsed time: 34:31:12, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_031310.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_031310.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 495
+======================
+
+differential_evolution step 10: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 10: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 34:31:13, Source: high-fidelity cache)
+Creating scheduled checkpoint at iteration 10
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_031311.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_031311.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 495
+======================
+
+Function eval #500: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0310, 0.7210, 0.5122]
+X_c: [0.03102313 0.72101791 0.51220361], HIGH-FIDELITY evaluation - obj: 7.6701, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 03:47:00 ===
+=== Elapsed time: 35:05:02, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_034700.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_034700.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 503
+======================
+
+Function eval #510: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.40650925 0.79803338 0.77227153], HIGH-FIDELITY evaluation - obj: 7.4844, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 04:20:47 ===
+=== Elapsed time: 35:38:49, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_042047.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_042047.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 511
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 04:54:21 ===
+=== Elapsed time: 36:12:23, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_045421.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_045421.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 519
+======================
+
+Function eval #520: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2186, 0.7953, 0.6044]
+X_c: [0.21861522 0.79533447 0.60441131], HIGH-FIDELITY evaluation - obj: 7.6508, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 05:28:05 ===
+=== Elapsed time: 36:46:07, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_052805.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_052805.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 527
+======================
+
+Function eval #530: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.9321849  0.80248789 0.93989638], HIGH-FIDELITY evaluation - obj: 7.2342, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 06:01:54 ===
+=== Elapsed time: 37:19:56, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_060154.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_060154.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 535
+======================
+
+Function eval #540: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9297, 0.5689, 0.9845]
+X_c: [0.92973011 0.56893738 0.98449584], HIGH-FIDELITY evaluation - obj: 6.9713, pof: 0.010000
+differential_evolution step 11: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 11: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 37:40:55, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 06:35:32 ===
+=== Elapsed time: 37:53:35, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_063532.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_063532.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 543
+======================
+
+Function eval #550: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.30637242 0.10183117 0.75113582], HIGH-FIDELITY evaluation - obj: 7.1025, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 07:09:34 ===
+=== Elapsed time: 38:27:36, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_070934.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_070934.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 551
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 07:43:30 ===
+=== Elapsed time: 39:01:32, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_074330.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_074330.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 559
+======================
+
+Function eval #560: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9210, 0.1365, 0.7198]
+X_c: [0.92102989 0.13649473 0.71981154], HIGH-FIDELITY evaluation - obj: 7.0978, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 08:17:14 ===
+=== Elapsed time: 39:35:16, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_081714.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_081714.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 567
+======================
+
+Function eval #570: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.80179234 0.48329738 0.33583884], HIGH-FIDELITY evaluation - obj: 7.5719, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 08:50:46 ===
+=== Elapsed time: 40:08:48, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_085046.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_085046.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 575
+======================
+
+Function eval #580: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7988, 0.4852, 0.7589]
+X_c: [0.79877971 0.4851834  0.75888158], HIGH-FIDELITY evaluation - obj: 7.5728, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 09:24:16 ===
+=== Elapsed time: 40:42:18, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_092416.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_092416.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 583
+======================
+
+differential_evolution step 12: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 12: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 40:50:41, Source: high-fidelity cache)
+Function eval #590: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.0025856  0.57409253 0.62366859], HIGH-FIDELITY evaluation - obj: 7.5981, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 09:57:52 ===
+=== Elapsed time: 41:15:54, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_095752.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_095752.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 591
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 10:31:29 ===
+=== Elapsed time: 41:49:31, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_103129.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_103129.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 599
+======================
+
+Function eval #600: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0431, 0.2349, 0.6385]
+X_c: [0.04310709 0.23488358 0.63846202], HIGH-FIDELITY evaluation - obj: 7.6115, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 11:05:09 ===
+=== Elapsed time: 42:23:11, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_110509.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_110509.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 607
+======================
+
+Function eval #610: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.75326934 0.82647416 0.69640535], HIGH-FIDELITY evaluation - obj: 7.6974, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 11:38:26 ===
+=== Elapsed time: 42:56:28, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_113826.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_113826.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 615
+======================
+
+Function eval #620: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8324, 0.7327, 0.5964]
+X_c: [0.83240568 0.73267971 0.59638437], HIGH-FIDELITY evaluation - obj: 7.5816, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 12:11:50 ===
+=== Elapsed time: 43:29:52, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_121150.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_121150.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 623
+======================
+
+Function eval #630: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.10434746 0.54055059 0.90836186], HIGH-FIDELITY evaluation - obj: 7.4613, pof: 0.000000
+differential_evolution step 13: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 13: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 43:59:00, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 12:45:07 ===
+=== Elapsed time: 44:03:09, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_124507.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_124507.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 631
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 13:18:36 ===
+=== Elapsed time: 44:36:38, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_131836.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_131836.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 639
+======================
+
+Function eval #640: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2693, 0.4226, 0.1738]
+X_c: [0.26925041 0.42261777 0.17381057], HIGH-FIDELITY evaluation - obj: 6.8628, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 13:52:04 ===
+=== Elapsed time: 45:10:06, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_135204.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_135204.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 647
+======================
+
+Function eval #650: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.38318541 0.81496597 0.58163995], HIGH-FIDELITY evaluation - obj: 7.4077, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 14:25:25 ===
+=== Elapsed time: 45:43:27, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_142525.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_142525.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 655
+======================
+
+Function eval #660: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8018, 0.7158, 0.1934]
+X_c: [0.80179234 0.71575277 0.19342292], HIGH-FIDELITY evaluation - obj: 7.3800, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 15:00:40 ===
+=== Elapsed time: 46:18:43, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_150040.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_150040.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 663
+======================
+
+Function eval #670: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.60347552 0.87474675 0.88449083], HIGH-FIDELITY evaluation - obj: 7.6371, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 15:34:09 ===
+=== Elapsed time: 46:52:11, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_153409.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_153409.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 671
+======================
+
+differential_evolution step 14: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0604, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 14: Obj = 7.0604, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 47:08:53, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 16:07:29 ===
+=== Elapsed time: 47:25:31, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_160729.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_160729.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 679
+======================
+
+Function eval #680: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.5159, 0.2107, 0.4058]
+X_c: [0.51594717 0.21071943 0.40577608], HIGH-FIDELITY evaluation - obj: 7.1032, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 16:40:41 ===
+=== Elapsed time: 47:58:43, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_164041.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_164041.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 687
+======================
+
+Function eval #690: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.71360202 0.07202589 0.43298694], HIGH-FIDELITY evaluation - obj: 7.0933, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 17:13:55 ===
+=== Elapsed time: 48:31:57, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_171355.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_171355.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 695
+======================
+
+Function eval #700: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9402, 0.6392, 0.6959]
+X_c: [0.94024568 0.63923042 0.69586746], HIGH-FIDELITY evaluation - obj: 7.2471, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 17:47:09 ===
+=== Elapsed time: 49:05:11, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_174709.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_174709.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 703
+======================
+
+Function eval #710: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.03939211 0.08036088 0.78527061], HIGH-FIDELITY evaluation - obj: 7.2516, pof: 0.030000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 18:20:19 ===
+=== Elapsed time: 49:38:21, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_182019.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_182019.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 711
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 18:53:33 ===
+=== Elapsed time: 50:11:35, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_185333.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_185333.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 719
+======================
+
+Function eval #720: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.3783, 0.1450, 0.8550]
+X_c: [0.37829724 0.14503501 0.85504466], HIGH-FIDELITY evaluation - obj: 7.1878, pof: 0.010000
+differential_evolution step 15: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.0617, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 15: Obj = 7.0617, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 50:15:46, Source: high-fidelity cache)
+Creating scheduled checkpoint at iteration 15
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_185744.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_185744.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 720
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 19:26:48 ===
+=== Elapsed time: 50:44:50, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_192648.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_192648.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 727
+======================
+
+Function eval #730: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.11836019 0.03627947 0.93439741], HIGH-FIDELITY evaluation - obj: 7.1041, pof: 0.050000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 19:59:56 ===
+=== Elapsed time: 51:17:59, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_195956.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_195956.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 735
+======================
+
+Function eval #740: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0275, 0.0932, 0.9033]
+X_c: [0.02747588 0.09315434 0.9033363 ], HIGH-FIDELITY evaluation - obj: 7.2710, pof: 0.040000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 20:33:12 ===
+=== Elapsed time: 51:51:14, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_203312.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_203312.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 743
+======================
+
+Function eval #750: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.61593057 0.65153655 0.76099119], HIGH-FIDELITY evaluation - obj: 7.5565, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 21:06:23 ===
+=== Elapsed time: 52:24:25, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_210623.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_210623.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 751
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 21:39:39 ===
+=== Elapsed time: 52:57:41, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_213939.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_213939.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 759
+======================
+
+Function eval #760: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9701, 0.4142, 0.1506]
+X_c: [0.97007522 0.4142013  0.15063548], HIGH-FIDELITY evaluation - obj: 6.9778, pof: 0.020000
+differential_evolution step 16: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.1041, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 16: Obj = 7.1041, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 53:22:38, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 22:12:55 ===
+=== Elapsed time: 53:30:57, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_221255.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_221255.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 767
+======================
+
+Function eval #770: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.18403595 0.57140341 0.86988924], HIGH-FIDELITY evaluation - obj: 7.4713, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 22:46:16 ===
+=== Elapsed time: 54:04:18, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_224616.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_224616.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 775
+======================
+
+Function eval #780: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.8463, 0.4827, 0.4594]
+X_c: [0.84626955 0.4826717  0.45942522], HIGH-FIDELITY evaluation - obj: 7.5510, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 23:19:32 ===
+=== Elapsed time: 54:37:34, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_231932.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_231932.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 783
+======================
+
+Function eval #790: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.19688628 0.15740952 0.18760455], HIGH-FIDELITY evaluation - obj: 6.6987, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-01 23:52:50 ===
+=== Elapsed time: 55:10:52, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250401_235250.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250401_235250.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 791
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 00:26:06 ===
+=== Elapsed time: 55:44:08, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_002606.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_002606.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 799
+======================
+
+Function eval #800: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9296, 0.3878, 0.5997]
+X_c: [0.92960348 0.38780493 0.59968696], HIGH-FIDELITY evaluation - obj: 7.4103, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 00:59:15 ===
+=== Elapsed time: 56:17:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_005915.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_005915.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 807
+======================
+
+Function eval #810: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.99378144 0.41041387 0.72524204], HIGH-FIDELITY evaluation - obj: 7.1684, pof: 0.030000
+differential_evolution step 17: f(x)= -49007.1
+Comparing solutions: Current [INFEASIBLE] (obj=7.1041, pof=5.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 17: Obj = 7.1041, PoF = 5.000000e-02 [INFEASIBLE] (Elapsed: 56:29:49, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 01:32:25 ===
+=== Elapsed time: 56:50:27, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_013225.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_013225.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 815
+======================
+
+Function eval #820: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.7555, 0.1724, 0.8430]
+X_c: [0.75546146 0.17238568 0.84298811], HIGH-FIDELITY evaluation - obj: 7.5084, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 02:05:21 ===
+=== Elapsed time: 57:23:23, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_020521.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_020521.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 823
+======================
+
+Function eval #830: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.76499799 0.84005628 0.9033363 ], HIGH-FIDELITY evaluation - obj: 7.6092, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 02:38:20 ===
+=== Elapsed time: 57:56:22, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_023820.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_023820.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 831
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 03:11:15 ===
+=== Elapsed time: 58:29:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_031115.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_031115.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 839
+======================
+
+Function eval #840: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9178, 0.0362, 0.4424]
+X_c: [0.91776707 0.03623636 0.44236984], HIGH-FIDELITY evaluation - obj: 6.6946, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 03:44:16 ===
+=== Elapsed time: 59:02:18, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_034416.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_034416.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 847
+======================
+
+Function eval #850: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.00387877 0.31128029 0.13592269], HIGH-FIDELITY evaluation - obj: 7.1049, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 04:17:17 ===
+=== Elapsed time: 59:35:19, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_041717.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_041717.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 855
+======================
+
+differential_evolution step 18: f(x)= -79007
+Comparing solutions: Current [INFEASIBLE] (obj=7.0050, pof=8.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 18: Obj = 7.0050, PoF = 8.000000e-02 [INFEASIBLE] (Elapsed: 59:35:21, Source: high-fidelity cache)
+Function eval #860: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9350, 0.5949, 0.3461]
+X_c: [0.93500634 0.59489161 0.34608282], HIGH-FIDELITY evaluation - obj: 7.3157, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 04:50:23 ===
+=== Elapsed time: 60:08:25, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_045023.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_045023.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 863
+======================
+
+Function eval #870: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.04310709 0.06525397 0.92599324], HIGH-FIDELITY evaluation - obj: 7.1876, pof: 0.050000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 05:23:23 ===
+=== Elapsed time: 60:41:25, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_052323.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_052323.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 871
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 05:56:20 ===
+=== Elapsed time: 61:14:22, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_055620.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_055620.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 879
+======================
+
+Function eval #880: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9635, 0.5511, 0.8187]
+X_c: [0.96347471 0.55106971 0.81867341], HIGH-FIDELITY evaluation - obj: 7.0885, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 06:29:21 ===
+=== Elapsed time: 61:47:23, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_062921.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_062921.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 887
+======================
+
+Function eval #890: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.78848312 0.08036088 0.85927067], HIGH-FIDELITY evaluation - obj: 7.2108, pof: 0.030000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 07:02:19 ===
+=== Elapsed time: 62:20:21, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_070219.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_070219.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 895
+======================
+
+Function eval #900: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.4454, 0.4104, 0.9417]
+X_c: [0.44539632 0.41041387 0.94172258], HIGH-FIDELITY evaluation - obj: 7.4291, pof: 0.000000
+differential_evolution step 19: f(x)= -79007
+Comparing solutions: Current [INFEASIBLE] (obj=7.0050, pof=8.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 19: Obj = 7.0050, PoF = 8.000000e-02 [INFEASIBLE] (Elapsed: 62:40:57, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 07:35:17 ===
+=== Elapsed time: 62:53:19, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_073517.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_073517.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 903
+======================
+
+Function eval #910: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.58541821 0.78576879 0.62596177], HIGH-FIDELITY evaluation - obj: 7.6587, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 08:08:17 ===
+=== Elapsed time: 63:26:19, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_080817.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_080817.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 911
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 08:41:17 ===
+=== Elapsed time: 63:59:19, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_084117.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_084117.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 919
+======================
+
+Function eval #920: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.5795, 0.5348, 0.5821]
+X_c: [0.57945842 0.53481257 0.58211651], HIGH-FIDELITY evaluation - obj: 7.5945, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 09:14:15 ===
+=== Elapsed time: 64:32:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_091415.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_091415.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 927
+======================
+
+Function eval #930: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.76642208 0.46343466 0.63150169], HIGH-FIDELITY evaluation - obj: 7.6876, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 09:47:13 ===
+=== Elapsed time: 65:05:15, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_094713.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_094713.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 935
+======================
+
+Function eval #940: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9113, 0.1773, 0.5556]
+X_c: [0.91126553 0.17729912 0.55557613], HIGH-FIDELITY evaluation - obj: 7.2124, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 10:20:13 ===
+=== Elapsed time: 65:38:15, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_102013.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_102013.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 943
+======================
+
+differential_evolution step 20: f(x)= -79007
+Comparing solutions: Current [INFEASIBLE] (obj=7.0050, pof=8.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 20: Obj = 7.0050, PoF = 8.000000e-02 [INFEASIBLE] (Elapsed: 65:46:30, Source: high-fidelity cache)
+Creating scheduled checkpoint at iteration 20
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_102828.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_102828.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 945
+======================
+
+Function eval #950: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.96050272 0.44567277 0.87490025], HIGH-FIDELITY evaluation - obj: 7.1430, pof: 0.020000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 10:53:14 ===
+=== Elapsed time: 66:11:16, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_105314.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_105314.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 951
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 11:26:25 ===
+=== Elapsed time: 66:44:27, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_112625.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_112625.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 959
+======================
+
+Function eval #960: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.2474, 0.0653, 0.8631]
+X_c: [0.24741685 0.06525397 0.86305346], HIGH-FIDELITY evaluation - obj: 7.0793, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 11:59:27 ===
+=== Elapsed time: 67:17:29, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_115927.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_115927.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 967
+======================
+
+Function eval #970: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.60213145 0.471534   0.60441131], HIGH-FIDELITY evaluation - obj: 7.6438, pof: 0.000000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 12:32:25 ===
+=== Elapsed time: 67:50:27, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_123225.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_123225.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 975
+======================
+
+Function eval #980: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.0394, 0.0804, 0.4331]
+X_c: [0.03939211 0.08036088 0.43308081], HIGH-FIDELITY evaluation - obj: 7.1348, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 13:05:20 ===
+=== Elapsed time: 68:23:22, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_130520.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_130520.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 983
+======================
+
+Function eval #990: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.07446151 0.98155651 0.91839641], HIGH-FIDELITY evaluation - obj: 7.5879, pof: 0.010000
+differential_evolution step 21: f(x)= -79007
+Comparing solutions: Current [INFEASIBLE] (obj=7.0050, pof=8.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 21: Obj = 7.0050, PoF = 8.000000e-02 [INFEASIBLE] (Elapsed: 68:52:18, Source: high-fidelity cache)
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 13:38:24 ===
+=== Elapsed time: 68:56:26, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_133824.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_133824.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 991
+======================
+
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 14:11:28 ===
+=== Elapsed time: 69:29:30, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_141128.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_141128.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 999
+======================
+
+Function eval #1000: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.6844, 0.0266, 0.3554]
+X_c: [0.68435755 0.02657631 0.35537568], HIGH-FIDELITY evaluation - obj: 6.8038, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 14:44:22 ===
+=== Elapsed time: 70:02:24, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_144422.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_144422.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 1007
+======================
+
+Function eval #1010: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.70446877 0.09315434 0.14690009], HIGH-FIDELITY evaluation - obj: 6.5673, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 15:17:19 ===
+=== Elapsed time: 70:35:21, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_151719.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_151719.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 1015
+======================
+
+Function eval #1020: Using all 100 aleatory and 10 epistemic samples
+Evaluating X_c = [0.9221, 0.0540, 0.3113]
+X_c: [0.92206056 0.05395566 0.31126306], HIGH-FIDELITY evaluation - obj: 6.6149, pof: 0.010000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 15:50:17 ===
+=== Elapsed time: 71:08:19, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_155017.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_155017.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 1023
+======================
+
+Function eval #1030: Using all 100 aleatory and 10 epistemic samples
+X_c: [0.00387877 0.01413844 0.65581926], HIGH-FIDELITY evaluation - obj: 6.9611, pof: 0.040000
+
+=== CHECKPOINT TRIGGERED at 2025-04-02 16:23:15 ===
+=== Elapsed time: 71:41:17, Interval: 30.0 minutes ===
+
+Progress plot saved to epsilon_results/checkpoints/checkpoint_20250402_162315.png
+Progress plot saved to epsilon_results/checkpoints/epsilon_optimization_progress.png
+
+=== CHECKPOINT SAVED ===
+Saved to: epsilon_results/checkpoints/checkpoint_20250402_162315.pkl
+Iteration: 0
+Best objective: 7.729303
+Constraint value: 0.000000
+Function evaluations: 1031
+======================
+
+differential_evolution step 22: f(x)= -79007
+Comparing solutions: Current [INFEASIBLE] (obj=7.0050, pof=8.000000e-02) vs Best [FEASIBLE] (obj=7.7293, pof=0.000000) - KEEPING CURRENT BEST
+Iteration 22: Obj = 7.0050, PoF = 8.000000e-02 [INFEASIBLE] (Elapsed: 71:57:48, Source: high-fidelity cache)
+slurmstepd: error: *** JOB 22882681 ON c218 CANCELLED AT 2025-04-02T16:42:11 DUE TO TIME LIMIT ***
