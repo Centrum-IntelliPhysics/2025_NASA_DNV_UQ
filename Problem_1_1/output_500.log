@@ -1,0 +1,9 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/data/Sukanta/Works_AIML/2025_DNV_UQ/Version03/Codes/Python/02_Training.py", line 107, in <module>
+    XFull = np.load(ExtractedDATA_DIR + 'XTrnVal_Base.npy')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sukanta/anaconda3/lib/python3.12/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/Sukanta/Works_AIML/2025_DNV_UQ/Version03/DATA/ExtractedDATA/Xc_500_850_850/1M/XTrnVal_Base.npy'
