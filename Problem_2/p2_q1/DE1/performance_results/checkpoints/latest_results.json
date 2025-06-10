@@ -1,0 +1,13 @@
+{
+  "X_c_optimal": [
+    0.11028203540259307,
+    0.3791086302407975,
+    0.6797163134660993
+  ],
+  "best_objective": 7.75729495137147,
+  "iteration": 0,
+  "func_evaluations": 849,
+  "elapsed_time": "58:30:46",
+  "completed": false,
+  "timestamp": "2025-04-02 03:35:01"
+}
