@@ -1,0 +1,53 @@
+Prediction Intervals:
+
+Alpha = 0.999
+
+Component 1:
+Lower bound: 0.000000
+Upper bound: 3.350000
+
+Component 2:
+Lower bound: 0.000000
+Upper bound: 3.350000
+
+Component 3:
+Lower bound: 0.000000
+Upper bound: 3.350000
+
+Component 4:
+Lower bound: 1.671838
+Upper bound: 1914.445160
+
+Component 5:
+Lower bound: 1.090693
+Upper bound: 934.128760
+
+Component 6:
+Lower bound: 1.080475
+Upper bound: 805.896624
+
+Alpha = 0.95
+
+Component 1:
+Lower bound: 0.000670
+Upper bound: 3.350000
+
+Component 2:
+Lower bound: 0.000000
+Upper bound: 3.350000
+
+Component 3:
+Lower bound: 0.000000
+Upper bound: 3.350000
+
+Component 4:
+Lower bound: 22.333923
+Upper bound: 1310.653142
+
+Component 5:
+Lower bound: 11.542810
+Upper bound: 638.669817
+
+Component 6:
+Lower bound: 8.969251
+Upper bound: 492.599520
