@@ -10,6 +10,8 @@ The challenge jointly posed by NASA and DNV is described in detail in the file *
 
 Our work is presented in the UQ Challenge Sessions at the 35th European Safety and Reliability (ESREL) Conference held in Norway. You can access the published paper through this **[link](https://rpsonline.com.sg/proceedings/esrel-sra-e2025/html/ESREL-SRA-E2025-P7698.html)**, and is also uploaded as *ESREL-SRA-E2025-P7698.pdf* in this repository. A recorded presentation is available **[here](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/sgoswam4_jh_edu/Eo6XL-LpD6ZOi9YAEh4gbqYBnehYqBaV6ees0N68VL0sPA?e=hIcXBC)**.
 
+The scoring results published by NASA and DNV is available in 'UQ_challenge_scoring.pdf'.
+
 If you like our work, please cite us as:
 ```
 @inproceedings{roy2025uncertainty,
@@ -22,3 +24,4 @@ If you like our work, please cite us as:
 }
 ```
 For any questions or further information, feel free to contact Dibakar Roy Sarkar at droysar1[@]jh[.]edu.
+
