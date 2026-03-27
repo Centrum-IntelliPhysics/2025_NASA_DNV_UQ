@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Uncertainty-Aware Optimization in Engineered Systems via Gradient Boosting and Differential Evolution"
+version: 1.0.0
+authors:
+  - family-names: "Roy Sarkar"
+    given-names: "Dibakar"
+    orcid: "https://orcid.org/0009-0001-4543-4473"
+  - family-names: "Basu"
+    given-names: "Sukanta"
+    orcid: "https://orcid.org/0000-0002-0507-5349"
+  - family-names: "Manuel"
+    given-names: "Lance"
+    orcid: "https://orcid.org/0000-0002-0602-3014"
+  - family-names: "Goswami"
+    given-names: "Somdatta"
+    orcid: "https://orcid.org/0000-0002-8255-9080"
+repository-code: "https://github.com/Centrum-IntelliPhysics/2025_NASA_DNV_UQ"
+identifiers:
+  - type: doi
+    value: 10.3850/978-981-94-3281-3_ESREL-SRA-E2025-P7698-cd
+  - type: swh
+    value: swh:1:dir:PLACEHOLDER
+preferred-citation:
+  type: conference-paper
+  title: "Uncertainty-Aware Optimization in Engineered Systems via Gradient Boosting and Differential Evolution"
+  authors:
+    - family-names: "Roy Sarkar"
+      given-names: "Dibakar"
+    - family-names: "Basu"
+      given-names: "Sukanta"
+    - family-names: "Manuel"
+      given-names: "Lance"
+    - family-names: "Goswami"
+      given-names: "Somdatta"
+  collection-title: "Proceedings of the 35th European Safety and Reliability & the 33rd Society for Risk Analysis Europe Conference"
+  year: 2025
+  publisher:
+    name: "Research Publishing, Singapore"
+  doi: 10.3850/978-981-94-3281-3_ESREL-SRA-E2025-P7698-cd
